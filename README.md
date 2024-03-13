@@ -1,2 +1,2 @@
 # NeetCodeGrind
-Journey through my leetcode prep
+Sorting out the basics for leetcode

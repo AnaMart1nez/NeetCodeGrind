@@ -1,3 +1,5 @@
+package Array;
+
 public class StaticArray {
 
     // Insert n into arr at the next open position.
@@ -24,7 +26,7 @@ public class StaticArray {
     // Assuming i is a valid index and arr is not full.
     public void insertMiddle(int[] arr, int i, int n, int length) {
         // Shift starting from the end to i.
-        for (int index = length - 1; index > i; index--) {
+        for (int index = length - 1; index > i -1 ; index--) {
             arr[index + 1] = arr[index];
         }
         // Insert at i
