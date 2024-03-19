@@ -23,7 +23,7 @@ public class ArrayMain {
         int val = 2; // Value to remove
         int[] expectedNums = {0,1,3,0,4}; // The expected answer with correct length.
         // It is sorted with no values equaling val.
-Remove_Element RemoveElem = new Remove_Element();
+        Remove_Element RemoveElem = new Remove_Element();
         int k = RemoveElem.removeElement(nums, val); // Calls your implementation
 
         assert k == expectedNums.length;
